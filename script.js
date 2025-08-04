@@ -67,6 +67,7 @@ document.getElementById("soilForm").addEventListener("submit", async function (e
     const formDataForFirebase = {
       location: document.getElementById("location").value,
       mountain: document.getElementById("mountain").value,
+      coffeeAge: document.getElementById("coffeeAge").value,
       testDate: document.getElementById("testDate").value,
       testNumber: document.getElementById("testNumber").value,
       ph: parseFloat(document.getElementById("ph").value),
